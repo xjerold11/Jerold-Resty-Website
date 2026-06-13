@@ -146,7 +146,7 @@ nav a:hover::after {
 }
 
 section {
-    scroll-margin-top: 100px;
+    scroll-margin-top: 75px;
 }
 
 
@@ -380,15 +380,9 @@ section {
     }
 
     nav {
-        flex-wrap: nowrap;
-        overflow-x: auto;
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 1rem;
-        scrollbar-width: none;
-    }
-
-     nav::-webkit-scrollbar {
-        display: none;
+        gap: 0.8rem;
     }
 
     nav a {
@@ -397,10 +391,6 @@ section {
 
     .section-box {
         padding: 80px 5%;
-    }
-
-    section {
-        scroll-margin-top: 140px;
     }
 
     .profile-img {
@@ -436,10 +426,6 @@ section {
     .profile-img {
         width: 140px;
         height: 140px;
-    }
-
-    section {
-        scroll-margin-top: 170px;
     }
 
     .goal-card,
