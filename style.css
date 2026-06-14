@@ -20,7 +20,7 @@ body {
 }
 
 
-/* TYPOGRAPHY (HEADINGS / TITLES)*/
+/* TYPOGRAPHY */
 .title {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 700;
